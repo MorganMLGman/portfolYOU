@@ -8,7 +8,8 @@ weight: 1
 # **About Me**
 
 Hi I am **{{ site.author.name }}** :wave:,<br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+I am an IT student at Lublin University of Technology. I am currently on my 5th year of Computer Science studies and I am Computer Science engineer. I live in Lublin, Poland and work full-time as Test Engineer in automotive industry. The topic of my Master's thesis is _**Analyze the impact of using containerization techniques on the performance of Python applications.**_ My personal interests include self-hosting, smart home, 3D printing and creating my own solutions in this area.
+
 
 <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}

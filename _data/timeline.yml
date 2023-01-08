@@ -1,17 +1,25 @@
-- title: Student, Harvard CS
-  from: 2014
-  to: 2018
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
-- title: Software Engineer, Google, UK
-  from: 2018
+- title: Computer Science student, Lublin University of Technology
+  from: 2022
   to: present
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  description: "Master's degree.<br>
+                The topic of my master's thesis is <strong>Analyze the impact of using containerization techniques on the performance of Python applications</strong>."
+
+- title: Test Engineer, Aptiv Kraków
+  from: 2021
+  to: present
+  description: "Verification and acceptance of requirements, creating system tests using CANoe/CAPL technology.<br>
+                Working with SPI communication interface.<br>
+                Reporting and resolving tickets on Jira."
+
+- title: Test Engineer, Sii Polska
+  from: 2021
+  to: present
+  description: "Verification and acceptance of requirements, creating system tests using CANoe/CAPL technology.<br>
+                Working with SPI communication interface.<br>
+                Reporting and resolving tickets on Jira."
+
+- title: Computer Science student, Lublin University of Technology
+  from: 2018
+  to: 2022
+  description: "Bachelor of Engineering.<br>
+                The topic of my thesis was <strong>A system supporting the hire of caregivers</strong>."

@@ -1,7 +1,21 @@
-- name: Adobe Photoshop
-  percentage: 95
+- name: Docker/Docker Compose
+  percentage: 55
+  color: primary
+
+- name: Linux
+  percentage: 50
+  color: warning
+  
+
+- name: Network management
+  percentage: 40
   color: info
 
-- name: Adobe Illustrator
-  percentage: 90
-  color: success
+- name: Markdown
+  percentage: 40
+  color: danger
+
+- name: Team management
+  percentage: 35
+  color: secondary
+  

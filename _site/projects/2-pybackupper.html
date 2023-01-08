@@ -21,12 +21,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="PlaceHolder Project">
-  <meta property="og:description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.">
-  <meta property="og:image" content="https://www.sketchappsources.com/resources/source-image/project-neon-groove-music-ui.png">
+  <meta property="og:title" content="PyBackUpper">
+  <meta property="og:description" content="PyBackUpper is simple Python application deployed with Docker container. It's main goal is to create daily backups of server, but can be used to backup prett...">
+  <meta property="og:image" content="/assets/pybackupper.png">
 
-  <title>PlaceHolder Project</title>
-  <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.">
+  <title>PyBackUpper</title>
+  <meta name="description" content="PyBackUpper is simple Python application deployed with Docker container. It's main goal is to create daily backups of server, but can be used to backup prett...">
 
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
 
@@ -63,6 +63,8 @@
 
       <a class="nav-item nav-link active" href="/projects/">Projects</a>
 
+      <a class="nav-item nav-link " href="/homelab/">Homelab</a>
+
       
 
       <span id="theme-toggler" class="nav-item nav-link" role="button" onclick="toggleTheme()"></span>
@@ -71,7 +73,28 @@
 
 </nav>
     <div class="col-lg-10 mx-auto mt-5 markdown-body">
-  
+  <h1 id="pybackupper">PyBackUpper</h1>
+
+<p class="text-center">
+<a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/MorganMLGman/PyBackUpper">
+  Go see on GitHub
+</a>
+</p>
+
+<p>PyBackUpper is a simple Python application created to make backups of self-hosted server based on Docker, but could be used to create any kind of backups. For time of writing, the application can create backups at specified time of the day and specified days of the week. Application create a copy of the source directory at a given time and preserve directory owner, group and permissions. It is also possible to compress created backup with to <code class="language-plaintext highlighter-rouge">.tar.gz</code> archive. Backups will be deleted from disk after a given amount of runs, for example if you specify to run a backup every second day and keep 7 runs, the first backup will be deleted after two weeks.</p>
+
+<p><img src="/assets/pybackupper.png" alt="preview" /></p>
+
+<h2 id="features">Features</h2>
+<ul>
+  <li>Creating backups at specified time of the day</li>
+  <li>Creating backups at specified days of the week</li>
+  <li>Compressing created backups to <code class="language-plaintext highlighter-rouge">.tar</code> archive. Currently only <code class="language-plaintext highlighter-rouge">.tar.gz</code> but there will be more</li>
+  <li>Deleting old backups</li>
+  <li>Preserving owner, group and permissions</li>
+  <li>Created <code class="language-plaintext highlighter-rouge">.tar</code> archive can be created with given owner and group</li>
+  <li>Skipping files matching given pattern, like <code class="language-plaintext highlighter-rouge">*.log</code></li>
+</ul>
 
 </div>
   </main>

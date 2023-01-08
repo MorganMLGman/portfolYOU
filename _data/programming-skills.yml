@@ -1,11 +1,19 @@
-- name: HTML5/CSS3
-  percentage: 90
-  color: danger
-
-- name: Go
-  percentage: 80
-  color:
+- name: CANoe/CAPL
+  percentage: 50
+  color: warning
 
 - name: Python
-  percentage: 70
-  color: secondary
+  percentage: 45
+  color: info
+
+- name: Kotlin
+  percentage: 45
+  color: danger
+
+- name: HTML/CSS/JS
+  percentage: 30
+  color: success
+
+- name: C/C++
+  percentage: 25
+  color: primary

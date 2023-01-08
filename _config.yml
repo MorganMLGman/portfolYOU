@@ -1,9 +1,11 @@
 ### Site Settings ###
 title               : Kacper Chołody
 description         : >-
-                      I turn coffee :coffee: into code,
-                      use tabs over spaces
-                      and never broke production.
+                      Hi there :wave:! My name is Kacper and I am an IT student with a love for all things tech. 
+                      I have experience working with platforms like Docker, Kotlin and Python, and have even built my own smart home devices using ESPHome. 
+                      When I'm not busy coding, you can find me on my virtual farm in Stardew Valley or tinkering with my homelab. 
+                      I may not be a professional yet, but I bring enthusiasm and a fresh perspective to every project. 
+                      So if you're in need of a tech-savvy team member who can create Python scripts and troubleshoot Docker, don't hesitate to drop me a line!
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 remote_theme        : YoussefRaafatNasry/portfolYOU
 open_new_tab        : true                             # Opens external URLs in new tab (works for posts, projects and navbar only)
@@ -25,11 +27,11 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : Kacper Chołody
-  image             : https://i.imgur.com/uyDNQnn.jpg
+  image             : /assets/personal.jpg
 # behance           : your_username
 # dribbble          : your_username
   email             : cholody.kacper1998@gmail.com
-# facebook          : cholodykacper
+#  facebook          : cholodykacper
   github            : MorganMLGman
 # gitlab            : your_username
 # instagram         : your_username

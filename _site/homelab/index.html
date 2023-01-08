@@ -21,11 +21,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Tags">
+  <meta property="og:title" content="Homelab">
   <meta property="og:description" content="Hi there :wave:! My name is Kacper and I am an IT student with a love for all things tech.  I have experience working with platforms like Docker, Kotlin and ...">
   <meta property="og:image" content="/assets/personal.jpg">
 
-  <title>Tags</title>
+  <title>Homelab</title>
   <meta name="description" content="Hi there :wave:! My name is Kacper and I am an IT student with a love for all things tech.  I have experience working with platforms like Docker, Kotlin and ...">
 
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
@@ -64,7 +64,7 @@
 
       <a class="nav-item nav-link " href="/projects/">Projects</a>
 
-      <a class="nav-item nav-link " href="/homelab/">Homelab</a>
+      <a class="nav-item nav-link active" href="/homelab/">Homelab</a>
 
       
 
@@ -74,7 +74,22 @@
 
 </nav>
     <div class="col-lg-10 mx-auto mt-5 markdown-body">
-  <!-- Collect tags from all posts --><!-- List tags & related posts -->
+  <h1 id="my-homelab">My Homelab</h1>
+
+<p>As you may have noticed, this site is not running on some purchased web hosting or VPS, it runs on private server 😱. You may think that I’m another one with Raspberry Pi4 or even 3 and calling it a <strong>PRIVATE SERVER</strong>, but you don’t have to worry about this because this stage is long behind me 😅. Let me introduce you to my homelab.</p>
+
+<hr>
+
+<figure class="figure w-100">
+  <img src="/assets/homelab-topology.png" class="figure-img img-fluid rounded" alt="My homelab graph"><figcaption class="figure-caption text-center">My homelab graph</figcaption></figure>
+
+<p>Every machine in my homelab except Raspberry Pi runs <strong>Docker</strong> with <strong>Portainer</strong> for monitoring, and I use a single <code class="language-plaintext highlighter-rouge">docker-compose.yaml</code> file to set everything up.</p>
+
+<p>On Dell and HP minipc I use stable Debian 11, but my so called <em>BigPC</em> is running Ubuntu Server 22.04 due to requiring newer kernel by Intel 12gen.</p>
+
+<p>I create a backup of every machine on a daily basis around 3AM, and backups are created on a separate drive for more security and “just in case”.</p>
+
+<p>Setup shown on the graph is running stable and without any problems for past few months, my plan for upgrades in near future is to add discrete GPU to <em>BigPC</em>. I want it to be an Intel ARC because I never used any, and it can be something new and probably challenging, but unfortunately for that I need to wait a bit because Intel ARC requires kernel minimum 6.0 😞.</p>
 
 </div>
   </main>
